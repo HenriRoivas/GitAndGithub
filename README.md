@@ -12,3 +12,13 @@
 1. Github julkaistiin vuonna 2008
 2. Microsoft osti Githubin vuonna 2018
 3. Githubia on suht helppo käyttää
+## Git:n käyttö
+### Git tietojen määrittäminen
+- Git ottaminen käyttöön kansiossa: git init
+- Käyttäjänimen määrittäminen: git config --global user.email "erikki.esimerkki@gmail.com"
+- Git tietojen näyttäminen: git config --list --global
+## Githubin käyttö
+### Githubin komentoja
+- Paikallisen kansion kytkeminen GitHub repositorioon: git remote add origin https://github.com/Githubtunnus/GitHubRepositio.git
+- Etärepositio kytköksen tarkistaminen : git remote -v
+- Paikallisen työkansion tietojen laittaminen GitHubiin: git push -u origin master
